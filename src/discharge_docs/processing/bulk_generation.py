@@ -37,7 +37,7 @@ def bulk_generate(
     skip_old_enc_ids: bool = False,
     old_bulk_letters: pd.DataFrame | None = None,
 ) -> None:
-    """Bulk generate disharge documents for all encounters in the data.
+    """Bulk generate discharge documents for all encounters in the data.
 
     Parameters
     ----------
